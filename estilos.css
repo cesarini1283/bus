@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    border: 0px;
+    width: 900px;
+    height: 730px;
+    position: relative;
+    margin: auto;
+}
+
+#arriba {
+    position: absolute;
+    border: 0px solid;
+    width: 100px;
+    height: 80px;
+    margin-left: 580px;
+    margin-top: 0px;
+}
+
+#arriba1 {
+    background: blue;
+    width: 15px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px 10px 0 0;
+    margin-left: 22px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#arriba2 {
+    background: blue;
+    width: 40px;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 10px 10px 0 0;
+    margin-left: 10px;
+    margin-top: 62px;
+    position: absolute;
+}
+
+#principio {
+    border: 0px solid;
+    width: 850px;
+    height: 650px;
+    margin: auto;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#principal {
+    background: yellow;
+    width: 560px;
+    height: 400px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    border: 2px solid;
+}
+
+#hijo1 {
+    background: #fff;
+    width: 60px;
+    height: 121px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+#hijo2 {
+    background: #fff;
+    width: 60px;
+    height: 121px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 120px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+#hijo3 {
+    background: #fff;
+    width: 60px;
+    height: 121px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 200px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/*#hijo4{
+    background: #fff;
+    width: 60px;
+    height: 121px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 470px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}*/
+
+#hijo5 {
+    background: #fff;
+    width: 7px;
+    height: 121px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 551px;
+    position: absolute;
+    border-radius: 10px 0 0 0;
+}
+
+#cuadro {
+    background: yellow;
+    width: 70px;
+    height: 245px;
+    border: 2px solid;
+    margin-top: 153px;
+    margin-left: 560px;
+    position: absolute;
+    border-radius: 0 20px 0 0;
+}
+
+#ventana_principal {
+    background: #fff;
+    width: 60px;
+    height: 121px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 470px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+#hijo6 {
+    background: yellow;
+    width: 80px;
+    height: 245px;
+    border: 0px solid;
+    margin-top: 155px;
+    margin-left: 520px;
+    position: absolute;
+    opacity: 1;
+}
+
+#aviso {
+    background: blue;
+    width: 240px;
+    height: 60px;
+    border: 2px solid;
+    margin-top: 170px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#aviso .mensaje {
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#aviso2 {
+    background: royalblue;
+    width: 200px;
+    height: 60px;
+    border: 2px solid;
+    margin-top: 170px;
+    margin-left: 420px;
+    position: absolute;
+    border-radius: 0 20px 0 0;
+}
+
+#aviso2 .mensaje2 {
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#puerta {
+    background: yellow;
+    width: 120px;
+    height: 350px;
+    border: 2px solid;
+    margin-top: 30px;
+    margin-left: 280px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+#ventana1_puerta {
+    background: #fff;
+    width: 40px;
+    height: 325px;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+#ventana2_puerta {
+    background: #fff;
+    width: 40px;
+    height: 325px;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 66px;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+}
+
+#debajo_puerta {
+    background: yellow;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 267px;
+    margin-top: 383px;
+}
+
+#adelante {
+    background: #fff;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 615px;
+    margin-top: 368px;
+}
+
+#adelante_arriba {
+    background: yellow;
+    position: absolute;
+    width: 10px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 632px;
+    margin-top: 208px;
+}
+
+
+/*#principio{
+    background: #fff;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 610px;
+    margin-top: 368px;
+}
+*/
+
+#llanta1 {
+    width: 80px;
+    height: 90px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+
+#llanta1 .rin1 {
+    width: 40px;
+    height: 48px;
+    background: royalblue;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#llanta2 {
+    width: 80px;
+    height: 90px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 430px;
+}
+
+#llanta2 .rin2 {
+    width: 40px;
+    height: 48px;
+    background: royalblue;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/*#principio2{
+    background:yellow;
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 910px;
+    margin-top: 40px;
+}*/
